@@ -1,0 +1,18 @@
+// -*- mode: idl; indent-tabs-mode: t; tab-width: 4; c-basic-offset: 4; -*-
+
+
+//module OpenHRP {
+	
+	//enum ControlType { FORCE, POSITION };
+
+	interface wuTestService
+	{
+		void start();
+		void setObjectV(in double x, in double y,in double z,in double roll,in double pitch,in double yaw);
+		void testMove();
+		void hogex();
+		void hogey();
+		void hogez();
+		void stop();
+	};
+//};
